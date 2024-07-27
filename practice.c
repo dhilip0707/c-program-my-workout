@@ -1,4 +1,4 @@
-//1.find smallest number in between two number:
+//1.find smallest number in between two numbers.
 
 /*#include<stdio.h>
 int main()
