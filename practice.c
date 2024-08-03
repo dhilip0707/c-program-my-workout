@@ -18,7 +18,8 @@ else{
 	printf("invalid\n");
 }
 return 0;
-}*/
+}
+*/
 
 
 //2.find maximum number in between three number:
