@@ -1,6 +1,7 @@
 //1.find smallest number in between two numbers.
 
-/*#include<stdio.h>
+/*
+#include<stdio.h>
 int main()
 {
 int a,b;
