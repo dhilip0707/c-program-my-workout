@@ -3,14 +3,15 @@
 #include <stdio.h>
 int main()
 {
-    float radius, volume;
-    float PI = 3.14;
-    printf("Input the radius of the sphere : ");
-    scanf("%f", &radius);
-    volume = (radius * radius * radius) * 3.14 * 4 / 3;
-    printf("The volume of sphere is : %f\n", volume);
-    return 0;
+   float radius,volume;
+   float PI = 3.14;
+   printf("Input the radius of the sphere : ");
+   scanf("%f", &radius);
+   volume = (radius * radius * radius) * PI * 4 / 3;
+   printf("The volume of sphere is : %f\n", volume);
+   return 0;
 }
+
 
 /*
 output
