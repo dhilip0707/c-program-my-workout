@@ -3,16 +3,35 @@
 #include <stdio.h>
 void main()
 {
-    int i,x, n;
-    float a=1,sum = 1;
+    int i, x, n, k, a;
+    int sum = 0;
     printf("Input the value:");
     scanf("%d", &x);
     printf("Input number of terms:");
     scanf("%d", &n);
+    a = x;
+    sum = x;
+    printf("a=%d\n",a);
     for (i = 1; i < n; i++)
     {
-        a = a * x /i;
+
+        a = -a * x * x;
         sum = sum + a;
+        printf("a=%d\n", a);
+        
     }
-    printf("The sum is :%f", sum);
+    printf("\nThe sum is :%d\n", sum);
 }
+
+
+/*output:
+Input the value:3   
+Input number of terms:5
+a=3
+a=-27
+a=243
+a=-2187
+a=19683
+
+The sum is :17715
+*/
