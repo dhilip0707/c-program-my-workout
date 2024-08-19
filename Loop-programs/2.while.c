@@ -8,10 +8,10 @@ printf("The first 10 natural number is:\n");
 while(a<=10)
 {
 c=a+c;
-printf("%d\n",a);
+printf("%d",a);
 a++;
 }
-printf("The Sum is :%d\n",c);
+printf("\nThe Sum is :%d\n",c);
 }
 
 

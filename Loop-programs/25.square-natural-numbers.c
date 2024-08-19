@@ -9,7 +9,7 @@ void main()
     printf("The square natural upto %d terms are :",n);
     for ( i = 1; i <=n; i++)
     {
-        printf("%d  ",i*i);
+        printf("%d+ ",i*i);
         sum=sum+i*i;
     }
     printf("\nThe Sum of Square Natural Number upto %d terms =%d\n",n,sum);

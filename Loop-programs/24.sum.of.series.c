@@ -9,7 +9,7 @@ void main()
     scanf("%d",&x);
     printf("Input the number of %d terms:",n);
     scanf("%d",&n);
-    a=x;
+    a=x; 
     sum=x;
     printf("%d\n",a);
     for(i=1;i<n;i++)

@@ -3,12 +3,12 @@
 #include<stdio.h>
 void main()
 {
-int a=1,b;
+int i=1,input;
 printf("Input the number(Table tobe calculated):");
-scanf("%d",&b);
-while(a<=10){
-    printf("%d*%d=%d\n",b,a,(b*a));
-a++;
+scanf("%d",&input);
+while(i<=10){
+    printf("%d*%d=%d\n",input,i,(input*i));
+i++;
 }
 }
 

@@ -3,7 +3,7 @@
 #include<stdio.h>
 void main()
 {
-    int i,j,n,sum=0,l=9;
+    int i,n,sum=0,l=9;
     printf("Input the number of terms:");
     scanf("%d",&n);
     for(i=1;i<=n;i++)
@@ -14,3 +14,7 @@ void main()
     }
     printf("\nThe sum of the series =%d\n",sum);
 }
+/*output
+Input the number of terms:5
+9 99 999 9999 99999 
+The sum of the series =111105*/

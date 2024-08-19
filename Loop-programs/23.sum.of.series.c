@@ -11,11 +11,10 @@ void main()
     scanf("%d", &n);
     a = x;
     sum = x;
-    printf("a=%d\n",a);
     for (i = 1; i < n; i++)
     {
 
-        a = -a * x * x;
+        a =-a * x * x;
         sum = sum + a;
         printf("a=%d\n", a);
         

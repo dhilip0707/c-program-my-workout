@@ -10,9 +10,8 @@ void main()
     scanf("%d", &p);
     printf("The perfect numbers within the given range:");
     for (i = m; i <= p; i++)
-    
     {
-        sum=0;
+        sum = 0;
         for (j = 1; j < i; j++)
         {
             if (i % j == 0)
@@ -26,11 +25,8 @@ void main()
         {
             printf("%d ", sum);
         }
-            
     }
-
 }
-
 
 /*output
 Input the starting range of number:1

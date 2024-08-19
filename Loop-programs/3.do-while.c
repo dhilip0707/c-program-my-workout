@@ -9,10 +9,10 @@ scanf("%d",&n);
 printf("The first %d natural number is :",n);
 do{
    c=a+c;
-   printf("%d\n",a);
+   printf("%d",a);
    a++;
    }while(a<=n);
-printf("The Sum of Natural Number upto %d terms :%d\n",n,c);
+printf("\nThe Sum of Natural Number upto %d terms :%d\n",n,c);
 }
 
 /*

@@ -11,7 +11,7 @@ void main()
         printf("%d+", l);
         l = l * 10 + 1;
     }
-    printf("\n The sum is :%d\n", sum);
+    printf("\bThe sum is :%d\n", sum);
 }
 
 /*Output:

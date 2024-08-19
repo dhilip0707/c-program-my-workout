@@ -20,3 +20,11 @@ void main()
         printf("\n");
     }
 }
+
+/*output:
+Input the number of terms5
+1
+01
+101
+0101
+10101*/
