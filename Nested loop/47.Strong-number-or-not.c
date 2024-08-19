@@ -1,4 +1,4 @@
-//.Write a C program to check whether a number is a Strong Number or not.
+//47.Write a C program to check whether a number is a Strong Number or not.
 #include<stdio.h>
 void main()
 {
@@ -21,3 +21,4 @@ void main()
         printf("%d is not a strong number",n);
     }
 }
+

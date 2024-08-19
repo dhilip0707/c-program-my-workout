@@ -12,9 +12,6 @@ void main()
         {
             flag++;
         }
-        if(flag==2){
-            break;
-        }
     }
     if (flag == 2)
 
@@ -26,5 +23,3 @@ void main()
         printf("%d is not a prime number.", input);
     }
 }
-
-             
