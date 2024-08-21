@@ -1,27 +1,24 @@
 #include<stdio.h>
 void main()
 {
-    int i,b=0,n,binary,remainder;
+    int binary,n,remainder,i=1;
     printf("Input a decimal number:");
     scanf("%d",&n);
-    printf("Binary number equivalent to said decimal number is:");
+    
     while(n>0)
     {
         remainder=n%2;
-        b=b*10+remainder;
+        binary=binary+remainder*i;
         n=n/2;
+        i=i*10;
+        
+       
+
     }
-    while(b>0)
-    {
-     remainder=b%2;
-     binary=binary*10+remainder;
-     b=b/10;   /* code */
-    }
-    printf("%d",binary);
-    
+     printf("%d",binary);
 }
 
-/*output:
+/*output
 Input a decimal number:25
-Binary number equivalent to said decimal number is:11001
+11001
 */
