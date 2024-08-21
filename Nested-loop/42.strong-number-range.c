@@ -6,6 +6,7 @@ void main()
     scanf("%d", &start);
     printf("Input ending range of number:");
     scanf("%d", &end);
+    printf("The strong numbers are ");
 
     for (i = start; i <= end; i++)
     {

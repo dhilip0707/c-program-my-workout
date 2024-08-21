@@ -1,4 +1,4 @@
-//30.Write a C program to find the Armstrong number for a given range of number.
+// 30.Write a C program to find the Armstrong number for a given range of number.
 #include <stdio.h>
 void main()
 {
@@ -19,9 +19,9 @@ void main()
         for (j = i; j != 0; j = j / 10)
         {
             k = 0;
-            digit = count;
-            sum = 1;
             k = j % 10;
+            sum = 1;
+            digit = count;
             while (digit != 0)
             {
                 sum = sum * k;
@@ -35,4 +35,3 @@ void main()
         }
     }
 }
-

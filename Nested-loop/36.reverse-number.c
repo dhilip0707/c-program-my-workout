@@ -4,7 +4,7 @@ void main()
     int input, remainder, reverse = 0;
     printf("Input the number:");
     scanf("%d", &input);
-    while (input == 0)
+    while (input != 0)
     {
         remainder = input % 10;
         reverse = reverse * 10 + remainder;
