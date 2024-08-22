@@ -15,7 +15,7 @@ void main()
        
 
     }
-     printf("%d",binary);
+     printf("Binary number equivalent to said decimal number is:%d\n",binary);
 }
 
 /*output
