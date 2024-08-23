@@ -1,19 +1,19 @@
-//2. Write a C program to compute the sum of the first 10 natural numbers.
+// 2. Write a C program to compute the sum of the first 10 natural numbers.
 
-#include<stdio.h>
+#include <stdio.h>
 void main()
 {
-int a,c=0;
-printf("The first 10 natural number is:\n");
-while(a<=10)
-{
-c=a+c;
-printf("%d",a);
-a++;
-}
-printf("\nThe Sum is :%d\n",c);
-}
+    int a, c = 0;
+    printf("The first 10 natural number is:\n");
+    while (a <= 10)
+    {
 
+        printf("%d", a);
+        c = a + c;
+        a++;
+    }
+    printf("\nThe Sum is :%d\n", c);
+}
 
 /*output
 The first 10 natural number is:
