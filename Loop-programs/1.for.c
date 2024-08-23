@@ -1,13 +1,14 @@
-//1.Write a C program to display the first 10 natural numbers.
+// 1.Write a C program to display the first 10 natural numbers.
 
-#include<stdio.h>
+#include <stdio.h>
 void main()
 {
-int a;
-for(a=1;a<=10;a++);
-{
-printf("%d",a);
-}
+    int a;
+    for (a = 1; a <= 10; a++)
+        ;
+    {
+        printf("%d", a);
+    }
 }
 
 /*output
