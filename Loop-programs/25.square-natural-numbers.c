@@ -11,6 +11,7 @@ void main()
     {
         printf("%d+ ",i*i);
         sum=sum+i*i;
+        
     }
     printf("\nThe Sum of Square Natural Number upto %d terms =%d\n",n,sum);
 
