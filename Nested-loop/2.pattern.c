@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main()
 {
-  int r;
+  int b,r;
   printf("input the row value:");
   scanf("%d", &r);
   for (int a = 1; a <= r; a++)
