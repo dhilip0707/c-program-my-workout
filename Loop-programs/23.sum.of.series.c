@@ -3,7 +3,7 @@
 #include <stdio.h>
 void main()
 {
-    int i, x, n, k, a;
+    int i, x, n, a;
     int sum = 0;
     printf("Input the value:");
     scanf("%d", &x);
@@ -15,8 +15,9 @@ void main()
     {
 
         a =-a * x * x;
-        sum = sum + a;
         printf("a=%d\n", a);
+        sum = sum + a;
+       
         
     }
     printf("\nThe sum is :%d\n", sum);

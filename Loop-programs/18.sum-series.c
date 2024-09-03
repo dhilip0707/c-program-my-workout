@@ -13,9 +13,11 @@ void main()
         k=(2*i)*(2*i-1);
         j=-j*x*x/k;
         sum=sum+j;
-        printf("%d term k = %f, j = %f sum is: %f\n",i+1, k, j, sum);
+       
         
     }
+    printf("%f",x);
+    printf("%d",n);
     printf("the sum is:%f",sum);
 }
 

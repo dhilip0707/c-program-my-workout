@@ -8,10 +8,9 @@ printf("Input number of terms:");
 scanf("%d",&n);
 printf("The odd numbers are :");
 while(a<=n*2){
-c=a+c;
 printf("%d\n",a);
-a++;
-a++;
+c=a+c;
+a=a+2;
 }
 printf("The Sum of odd Natural Number upto %d terms :%d\n",n,c);
 }
