@@ -19,7 +19,7 @@ void main()
         printf("%d",array[i]);
     }
     printf("The values store into the array in reverse are :\n");
-    for ( i = n-1; i >=0; i++)
+    for ( i = n-1; i >=0; i--)
     {
         printf("%d",array[i]);
     }

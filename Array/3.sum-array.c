@@ -13,8 +13,9 @@ void main()
         printf("elements-%d:",i);
         scanf("%d",&array[i]);
         sum=sum+array[i];
+        printf("%d",sum);
     }
-    printf("Sum of all elements stored in the array is :%d\n",sum);
+    printf("\nSum of all elements stored in the array is :%d\n",sum);
 
     
 }

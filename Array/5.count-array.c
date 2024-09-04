@@ -22,6 +22,8 @@ void main()
                 printf("if %d, %d\n", j, i);
                 count++;
                 break;
+        
+                
             }
         }
     }
