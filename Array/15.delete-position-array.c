@@ -13,19 +13,24 @@ void main()
     }
     printf("Input the position where to delete:");
     scanf("%d", &position);
-    for (i = position-1; i < n-1; i++)
+    if (position <=n && position > 0)
     {
-        list[i]=list[i+1];
+        for (i = position - 1; i < n - 1; i++)
+        {
+            list[i] = list[i + 1];
+        }
+        printf("The new list is :");
+        for (i = 0; i < n - 1; i++)
+        {
+            printf("%d ", list[i]);
+        }
     }
-    printf("The new list is :");
-    for (i = 0; i <n-1; i++)
+    else
     {
-        printf("%d ", list[i]);
-
+        printf("entered number is invalid");
     }
     printf("\n");
 }
-
 
 /*output:
 
@@ -37,5 +42,5 @@ elements - 2:3
 elements - 3:4
 elements - 4:5
 Input the position where to delete:3
-The new list is :1 2 4 5 
+The new list is :1 2 4 5
 */
