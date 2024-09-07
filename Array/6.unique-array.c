@@ -4,7 +4,6 @@
 void main()
 {
     int i, j, n, count = 0;
-    printf("Print all unique elements of an array:\n");
     printf("Input the number of elements to be stored in the array:");
     scanf("%d", &n);
     int unique[n];
@@ -38,5 +37,11 @@ void main()
 }
 
 /*Output:
-
+Input the number of elements to be stored in the array:4
+Input 4 elements in the array:
+element-0:3
+element-1:2
+element-2:2
+element-3:5
+The unique elements forced in the array are :3 5
 */

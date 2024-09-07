@@ -1,3 +1,5 @@
+//8.Write a program in C to count the frequency of each element of an array. 
+
 #include <stdio.h>
 void main()
 {
@@ -20,7 +22,7 @@ void main()
             if (frequency[i] == frequency[k])
             {
                 flag = 1;
-                
+                break;
             }
         }
 
@@ -33,9 +35,11 @@ void main()
                 if (frequency[i] == frequency[j])
                 {
                     count++;
+                    
                 }
             }
-            printf("%d occurs %d times\n", frequency[i], count);
+            
         }
+        printf("%d occurs %d times\n", frequency[i], count);
     }
 }

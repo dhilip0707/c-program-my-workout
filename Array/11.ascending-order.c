@@ -1,3 +1,5 @@
+//11. Write a program in C to sort elements of an array in ascending order.
+
 #include<stdio.h>
 void main ()
 {
@@ -33,3 +35,15 @@ void main ()
     printf("\n");
     
 }
+
+/*
+Output:
+Input the size of array:5
+Input 5 elements in the array:
+elements-0:9
+elements-1:7
+elements-2:5
+elements-3:4
+elements-4:2
+elements of array in sorted ascending order is :2 4 5 7 9
+*/

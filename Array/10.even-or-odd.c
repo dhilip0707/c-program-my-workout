@@ -40,3 +40,18 @@ void main()
     
     
 }
+
+/*
+Output:
+Input the number of elements to be stored in the array:5
+Input the 5 elements in the array :
+elements -0:25
+elements -1:47
+elements -2:42
+elements -3:56
+elements -4:32
+even numbers:
+42 56 32 
+odd numbers:
+25 47
+*/

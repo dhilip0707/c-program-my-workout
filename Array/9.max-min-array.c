@@ -4,10 +4,10 @@
 void main()
 {
     int n, i;
-    printf("Input the number of elements to be stored in the array:\n");
+    printf("Input the number of elements to be stored in the array:");
     scanf("%d", &n);
     int input[n];
-    printf("Input %d elements in the array:\n", n);
+    printf("\nInput %d elements in the array:\n", n);
     for (i = 0; i < n; i++)
     {
         printf("elements - %d : ", i);
@@ -32,8 +32,8 @@ void main()
 
 /*
 Output:
-Input the number of elements to be stored in the array:
-3
+Input the number of elements to be stored in the array:3
+
 Input 3 elements in the array:
 elements - 0 : 45
 elements - 1 : 25

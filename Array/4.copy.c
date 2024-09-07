@@ -1,3 +1,5 @@
+//4.Write a program in C to copy the elements of one array into another array.
+
 #include <stdio.h>
 void main()
 {
@@ -30,3 +32,15 @@ void main()
 	}
 	printf("\n");
 }
+
+/*Output:
+Input the number of element to store in the array:3
+Input 3 number of elements in the array:
+element-0 : 2
+element-1 : 4
+element-2 : 8
+The element store into the array are:
+2 4 8 
+The element copied into the second array are:
+2 4 8
+*/

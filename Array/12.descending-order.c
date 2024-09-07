@@ -1,4 +1,5 @@
-/*#include<stdio.h>
+//12. Write a program in C to sort the elements of the array in descending order.
+#include<stdio.h>
 void main ()
 {
     int i,j,n,swap;
@@ -33,5 +34,16 @@ void main ()
     printf("\n");
     
 }
-*/
 
+
+/*
+/*Output:
+Input the size of array:3
+Input 3 elements in the array:
+elements-0:1
+elements-1:2
+elements-2:3
+elements of array in sorted ascending order is :
+3 2 1
+
+*/

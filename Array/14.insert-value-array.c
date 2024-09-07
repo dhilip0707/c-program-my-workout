@@ -1,3 +1,4 @@
+//14. Write a program in C to insert values in the array (unsorted list).
 #include <stdio.h>
 void main()
 {
@@ -34,7 +35,7 @@ void main()
     printf("\n");
 }
 
-/*output:
+/*Output:
 Input the size of array:4
 Input 4 elements in the array in ascending order:
 elements - 0:1

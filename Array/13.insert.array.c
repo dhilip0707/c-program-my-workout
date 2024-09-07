@@ -1,3 +1,5 @@
+//13. Write a program in C to insert the values in the array (sorted list).
+
 #include<stdio.h>
 void main()
 {
@@ -48,7 +50,7 @@ void main()
     
 }
 
-/*output:
+/*Output:
 Input the size of array:5
 Input 5 elements in the array in ascending order:
 elements - 0:2

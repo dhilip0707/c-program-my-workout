@@ -1,3 +1,5 @@
+//15. Write a program in C to delete an element at a desired position from an array.
+
 #include <stdio.h>
 void main()
 {
@@ -32,7 +34,7 @@ void main()
     printf("\n");
 }
 
-/*output:
+/*Output:
 
 Input the size of array:5
 Input 5 elements in the array in ascending order:
