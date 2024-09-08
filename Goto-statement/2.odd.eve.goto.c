@@ -14,9 +14,9 @@ printf("Entered number %d is even",a);
 else{
 printf("Entered number %d is odd",a);
 }
-printf("\nExit to click 1 or run again to click any number:");
+printf("\nExit to click 0 or run again to click any number:");
 scanf("%d",&b);
-if(b==1){
+if(b==0){
 printf("Program terminated successfully\n");
 }
 else{
