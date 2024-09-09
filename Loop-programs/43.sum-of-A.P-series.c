@@ -19,7 +19,8 @@ for(i=num1;i<=num2*num3;i+=num3)
 printf("\b = %d\n",sum);
 }
 
-/*output
+/*
+Output:
 Input the starting number of the A.P. series:1
 Input the number of items for the A.P. series:10
 Input the common difference of A.P. series:4
