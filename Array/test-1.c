@@ -1,3 +1,4 @@
+// Write a program in C to find the sum of rows and columns of a matrix.
 #include <stdio.h>
 int main()
 {
@@ -67,3 +68,29 @@ int main()
 	return 0;
 }
 
+/*
+Output:
+Input the size of the rows and columns: 3
+Input the elements in the matrix:
+element-[0][0]: 1
+element-[0][1]: 2
+element-[0][2]: 3
+element-[1][0]: 1 
+element-[1][1]: 2
+element-[1][2]: 3
+element-[2][0]: 1
+element-[2][1]: 2
+element-[2][2]: 3
+The matrix is:
+1 2 3 
+1 2 3 
+1 2 3 
+row:
+3 3 
+column:
+2 4 12 
+sum of row and column is:
+1 2 3 
+1 2 3 
+2 4 12 
+*/
