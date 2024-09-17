@@ -8,18 +8,20 @@ int a=1,Sum=0,n;
 printf("Enter the input:");
 scanf("%d",&n);
 printf("Natural numbers are:");
-Hello:
+
 printf("%d ",a);
 Sum=a+Sum;
 a++;
 if(a<=n){
 goto Hello;
 }
+Hello:
 printf("\nSum is:%d\n",Sum);
 }
 
 /*
 Output:
+Enter the input:20
 Natural numbers are:1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
 Sum is:210
 */

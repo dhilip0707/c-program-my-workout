@@ -34,6 +34,7 @@ void main()
             for (k = 0; k < columns; k++)
             {
                 multiplication[i][j] = multiplication[i][j] + first[i][k] * second[k][j];
+                printf("%d ",multiplication[i][j]);
             }
         }
     }

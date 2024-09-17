@@ -1,3 +1,4 @@
+// 25. Write a program in C to find the sum of rows and columns of a matrix.
 #include <stdio.h>
 void main()
 {
@@ -54,6 +55,8 @@ void main()
         printf("%d ", sum1[k]);
     }
     printf("\n");
+ 
+    
 }
 
 /*
