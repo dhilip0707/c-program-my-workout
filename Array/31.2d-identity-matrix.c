@@ -36,10 +36,12 @@ void main()
                 {
                     flag++;
                 }
-                else if (i != j && matrix[i][j] != 0)
+                else if (i!=j&&matrix[i][j] != 0)
                 {
                     flag++;
+                    printf("%d",flag);
                 }
+
             }
         }
         if (flag == 0)

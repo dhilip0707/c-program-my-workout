@@ -1,9 +1,9 @@
 #include <stdio.h>
 void main()
 {
-    int i, j, rows,columns, count = 0;
+    int i, j, n,n, count = 0;
     printf("Input the size of the matrix:");
-    scanf("%d", &rows,&columns);
+    scanf("%d", &n,&n);
     int matrix[n][n];
     printf("Input the elements int the matrix:\n");
     for (i = 0; i < n; i++)
