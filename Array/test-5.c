@@ -2,7 +2,7 @@
 
 void main()
 {
-	int i, j, k, l, rows, columns, m=9, swap, o, p;
+	int i, j, k, l, rows, columns, m = 9, swap, o, p;
 
 	printf("Input the number of rows and columns of the matrix: ");
 	scanf("%d%d", &rows, &columns);
@@ -53,7 +53,7 @@ void main()
 				}
 			}
 
-			for (o = 0;  o< m; o++)
+			for (o = 0; o < m; o++)
 			{
 				for (p = o + 1; p < m; p++)
 				{
