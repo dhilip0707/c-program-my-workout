@@ -15,7 +15,7 @@ void main()
     }
     printf("Insert the value to be inserted:\n");
     scanf("%d",&insert);
-    printf("the exist array lsit is:");
+    printf("the exist array list is:");
     for ( i = 0; i < n; i++)
     {
       printf("%d ",list[i]);
@@ -60,6 +60,6 @@ elements - 3:9
 elements - 4:11
 Insert the value to be inserted:
 8
-the exist array lsit is:2 5 7 9 11 
+the exist array list is:2 5 7 9 11 
  After Insert the list is :2 5 7 8 9 11
  */
