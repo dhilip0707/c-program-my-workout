@@ -39,6 +39,7 @@ void main()
                     if ((k > -1 && k < rows) && (l > -1 && l < columns))
                     {
                         sum = sum + matrix[k][l];
+                        printf("%d ",matrix[k][l]);
                     }
                 }
             }
@@ -56,3 +57,4 @@ void main()
         printf("\n");
     }
 }
+
