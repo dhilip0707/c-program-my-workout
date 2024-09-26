@@ -17,7 +17,7 @@ void main()
     {
         printf("%d ", sub[i]);
     }
-   printf("The largest sum of contiguous subarray is :");
+   printf("\nThe largest sum of contiguous subarray is :");
     int sum1=sub[0];
     for (i = 0; i < n; i++)
     {
@@ -32,5 +32,21 @@ void main()
             }
         }
     }
-    printf("%d ", sum1);
+    printf("%d\n", sum1);
 }
+
+/*
+Output:
+Enter the number :9
+element-0:8
+element-1:3
+element-2:8
+element-3:-5
+element-4:4
+element-5:3
+element-6:-4
+element-7:3
+element-8:5
+The given array is : 8 3 8 -5 4 3 -4 3 5 
+The largest sum of contiguous subarray is :25
+*/
