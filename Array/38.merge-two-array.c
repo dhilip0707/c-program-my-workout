@@ -1,3 +1,5 @@
+// 38. Write a program in C to merge one sorted array into another sorted array.
+
 #include <stdio.h>
 void main()
 {

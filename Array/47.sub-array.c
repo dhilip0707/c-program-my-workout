@@ -1,3 +1,5 @@
+// 47. Write a program in C to find a subarray with a given sum 7 from the given array.
+
 #include <stdio.h>
 void main()
 {
@@ -15,7 +17,7 @@ void main()
     {
         printf("%d ", sub[i]);
     }
-    printf("Input the given sum:");
+    printf("\nInput the given sum:");
     scanf("%d",&x);
     for (i = 0; i < n; i++)
     {
@@ -38,3 +40,20 @@ void main()
         }
     }
 }
+
+/* Output:
+Enter the size of the array :8
+element - 0 :7
+element - 1 :4
+element - 2 :-7
+element - 3 :1
+element - 4 :3
+element - 5 :3
+element - 6 :1
+element - 7 :-4
+The given Array:7 4 -7 1 3 3 1 -4 
+Input the given sum:7
+7 
+1 3 3 
+3 3 1 
+*/

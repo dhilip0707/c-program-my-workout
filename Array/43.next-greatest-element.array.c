@@ -1,3 +1,4 @@
+//  43.Write a program in C to print the next greatest elements in a given unsorted array. Elements for which no superior element exists, consider the next greatest 	    element as -1.
 #include <stdio.h>
 void main()
 {

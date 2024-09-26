@@ -1,3 +1,5 @@
+// 39. Write a program in C to rotate an array by N positions.
+
 #include <stdio.h>
 void main()
 {
@@ -44,3 +46,24 @@ void main()
     }
     printf("\n");
 }
+
+/*Output:
+
+Enter the size of the array :11
+Enter the position to rotate:4
+element -0:0 
+element -1:3
+element -2:6 
+element -3:9
+element -4:12
+element -5:14
+element -6:18
+element -7:20
+element -8:22
+element -9:25
+element -10:27
+The given array is:0 3 6 9 12 14 18 20 22 25 27 
+From 4th position the values of the array are :12 14 18 20 22 25 27 
+Before 4th position the values of the array are :0 3 6 9 
+After rotating from 4th position the array is:12 14 18 20 22 25 27 0 3 6 9 
+*/
