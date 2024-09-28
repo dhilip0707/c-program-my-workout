@@ -43,7 +43,7 @@ void main()
 
 /* Output:
 Enter the size of the array :8
-element - 0 :7
+element - 0 :3
 element - 1 :4
 element - 2 :-7
 element - 3 :1
@@ -51,9 +51,11 @@ element - 4 :3
 element - 5 :3
 element - 6 :1
 element - 7 :-4
-The given Array:7 4 -7 1 3 3 1 -4 
+The given Array:3 4 -7 1 3 3 1 -4 
 Input the given sum:7
-7 
+3 4 
+3 4 -7 1 3 3 
 1 3 3 
-3 3 1 
+3 3 1
 */
+
