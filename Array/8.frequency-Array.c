@@ -40,6 +40,6 @@ void main()
             }
             
         }
-        
-    }printf("%d occurs %d times\n", frequency[i], count);
+        printf("%d occurs %d times\n", frequency[i], count);
+    }
 }
