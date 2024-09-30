@@ -3,13 +3,13 @@
 #include <stdio.h>
 void main()
 {
-    int a;
-    for (a = 1; a <= 10; a++)
-        ;
+    int i, input;
+    printf("Enter the input:");
+    scanf("%d", &input);
+    for (i = 1; i <= input; i++)
     {
-        printf("%d", a);
+        printf("%d ", i);
     }
 }
 
-/*output
-12345678910*/
+
