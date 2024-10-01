@@ -1,5 +1,5 @@
 // 5. Write a program in C to count the total number of words in a string.
-
+// With argument with return
 #include <stdio.h>
 int length(char string[]);
 void main()

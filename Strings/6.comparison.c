@@ -1,5 +1,5 @@
 // 6. Write a program in C to compare two strings without using string library functions.
-
+// With argument with return
 #include <stdio.h>
 int compare(char str1[], char str2[]);//declaration
 void main()

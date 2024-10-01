@@ -1,8 +1,9 @@
 // 9. Write a program in C to count the total number of vowels and consonants in a string.
+// with argument without return
+
 #include <stdio.h>
 void vowels(char string[]);
 void consonants(char string[]);
-
 void main()
 {
     char string[200];

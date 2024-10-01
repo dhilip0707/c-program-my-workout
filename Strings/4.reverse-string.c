@@ -1,5 +1,5 @@
 // 4. Write a program in C to print individual characters of a string in reverse order.
-
+// With argument with return
 #include <stdio.h>
 int length(char string[]);
 void main()

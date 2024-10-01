@@ -7,7 +7,7 @@ void main()
     int i;
     printf("Input the string :");
     fgets(string, sizeof string, stdin);
-    for (i = 0; string[i]!='\0'; i++)
+    for (i = 0; string[i] != '\0'; i++)
     {
         printf("%c ", string[i]);
     }

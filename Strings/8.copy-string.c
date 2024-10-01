@@ -1,4 +1,5 @@
 // 8. Write a program in C to copy one string to another string.
+// With argument with return
 
 #include <stdio.h>
 int copy(char str1[], char str2[]);

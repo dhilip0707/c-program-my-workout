@@ -1,5 +1,5 @@
 // 7. Write a program in C to count the total number of alphabets, digits and special characters in a string.
-
+// With argument without return
 #include <stdio.h>
 void alphabets(char string[]);
 void digits(char string[]);
