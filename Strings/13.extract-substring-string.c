@@ -1,3 +1,5 @@
+// 13. Write a program in C to extract a substring from a given string.
+
 #include <stdio.h>
 void sub_string(char string[], int position, int length);
 void main()
@@ -40,3 +42,12 @@ void sub_string(char string[], int position, int length)
     }
     printf("The substring retrieve from the string is :%s", sub);
 }
+
+
+/*
+Output:
+Input the string :this is test string
+Input the position to start extraction :9
+Input the length of substring :4
+The substring retrieve from the string is :test
+*/
