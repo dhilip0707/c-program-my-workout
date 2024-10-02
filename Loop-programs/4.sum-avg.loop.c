@@ -1,26 +1,28 @@
-//4. Write a C program to read 10 numbers from the keyboard and find their sum and average. 
+// 4. Write a C program to read 10 numbers from the keyboard and find their sum and average.
 
-#include<stdio.h>
+#include <stdio.h>
 void main()
 {
-int a,b,c=0;
-float avg;
-printf("Input the 10 Numbers : ");
+  int i,j, sum = 0;
+  float avg;
+  printf("Input the 10 Numbers :\n");
 
-for(a=1;a<=10;a++){
-  printf("Number-%d:",a);
-  scanf("%d",&b);
-  c=c+b;
-  avg=c/10.0;
-}
+  for (i = 1; i <= 10; i++)
+  {
+    printf("Number-%d:", i);
+    scanf("%d", &j);
+    sum = sum + j;
+    avg = sum / 10.0;
+  }
 
-printf("The sum of 10 no is:%d\n",c);
-printf("The Average is %f",avg);
+  printf("The sum of 10 no is:%d\n", sum);
+  printf("The Average is %f", avg);
 }
 
 /*
-output
-Input the 10 Numbers : Number-1:1
+Output
+Input the 10 Numbers :
+Number-1:1
 Number-2:2
 Number-3:3
 Number-4:4
@@ -33,5 +35,3 @@ Number-10:10
 The sum of 10 no is:55
 The Average is 5.500000
 */
-
-
