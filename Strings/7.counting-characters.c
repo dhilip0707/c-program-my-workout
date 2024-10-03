@@ -9,7 +9,6 @@ void main()
     char string[200];
     printf("Input the String : ");
     gets(string);
-    // fgets(string, sizeof(string), stdin);
     alphabets(string);
     digits(string);
     specialcharacters(string);
