@@ -1,15 +1,16 @@
-//6. Write a C program to display the multiplication table for a given integer. (to use for loop)
+// 6. Write a C program to display the multiplication table for a given integer. (to use for loop)
 
-#include<stdio.h>
+#include <stdio.h>
 void main()
 {
-int i=1,input;
-printf("Input the number(Table tobe calculated):");
-scanf("%d",&input);
-while(i<=10){
-    printf("%d*%d=%d\n",input,i,(input*i));
-i++;
-}
+    int i = 1, input;
+    printf("Input the number(Table tobe calculated):");
+    scanf("%d", &input);
+    while (i <= 10)
+    {
+        printf("%d*%d=%d\n", input, i, (input * i));
+        i++;
+    }
 }
 
 /*
