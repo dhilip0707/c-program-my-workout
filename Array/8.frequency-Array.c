@@ -1,9 +1,9 @@
-//8.Write a program in C to count the frequency of each element of an array. 
+// 8.Write a program in C to count the frequency of each element of an array.
 
 #include <stdio.h>
 void main()
 {
-    int i, j, k, n, count = 0, flag;
+    int i, j, n, count = 0, flag;
     printf("Input the number of elements to be stored in the array:");
     scanf("%d", &n);
     int frequency[n];
@@ -17,9 +17,9 @@ void main()
     for (i = 0; i < n; i++)
     {
         flag = 0;
-        for (k = 0; k < i - 1; k++)
+        for (j = 0; j < i; j++)
         {
-            if (frequency[i] == frequency[k])
+            if (frequency[i] == frequency[j])
             {
                 flag = 1;
                 break;
@@ -28,18 +28,16 @@ void main()
 
         if (flag == 0)
         {
-            count = 0;
+            count = 1;
 
             for (j = 0; j < n; j++)
             {
-                if (frequency[i] == frequency[j])
+                if (frequency[i] == frequency[j] && i != j)
                 {
                     count++;
-                    
                 }
             }
-            
+            printf("%d occurs %d times\n", frequency[i], count);
         }
-        printf("%d occurs %d times\n", frequency[i], count);
     }
 }
