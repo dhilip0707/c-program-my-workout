@@ -1,28 +1,26 @@
-//18. Write a program in C to find the sum of the series [ 1-X^2/2!+X^4/4!- .........]
-#include<stdio.h>
+// 18. Write a program in C to find the sum of the series [ 1-X^2/2!+X^4/4!- .........]
+#include <stdio.h>
 void main()
 {
-    int i,n;
-    float x,sum=1,j=1,k=0;
-    printf("input the value of x:");
-    scanf("%f",&x);
+    int i, n;
+    float x, sum = 1, j = 1, k = 0;
+    printf("Input the value of x:");
+    scanf("%f", &x);
     printf("Input the number of terms: ");
-    scanf("%d",&n);
-    for(i=1;i<=n;i++)
+    scanf("%d", &n);
+    for (i = 1; i <= n; i++)
     {
-        k=(2*i)*(2*i-1);
-        j=-j*x*x/k;
-        sum=sum+j;
-       
-        
+        k = (2 * i) * (2 * i - 1);
+        j = -j * x * x / k;
+        sum = sum + j;
     }
-    printf("%f",x);
-    printf("%d",n);
-    printf("the sum is:%f",sum);
+    printf("%f", x);
+    printf("%d", n);
+    printf("the sum is:%f", sum);
 }
 
 /*output
-input the value of x:2
+Input the value of x:2
 Input the number of terms: 5
 2 term k = 2.000000, j = -2.000000 sum is: -1.000000
 3 term k = 12.000000, j = 0.666667 sum is: -0.333333
