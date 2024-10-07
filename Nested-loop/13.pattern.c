@@ -1,4 +1,4 @@
-// 12. Write a program in C to make such a pattern like a right angle triangle with the number increased by 1.
+// 13. Write a program in C to make a pyramid pattern with numbers increased by 1. 
 
 #include <stdio.h>
 void main()
