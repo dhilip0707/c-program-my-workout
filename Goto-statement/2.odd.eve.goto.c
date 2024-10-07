@@ -28,9 +28,9 @@ else{
 output
 Enter the number:21
 Entered number 21 is odd
-Exit to click 1 or run again to click any number:5
+Exit to click 0 or run again to click any number:5
 Enter the number:2
 Entered number 2 is even
-Exit to click 1 or run again to click any number:1
+Exit to click 0 or run again to click any number:0
 Program terminated successfully
 */
