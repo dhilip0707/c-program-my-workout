@@ -3,15 +3,15 @@
 #include <stdio.h>
 void main()
 {
-  int i, j, n, l = 1;
+  int i, j, n, L = 1;
   printf("Input the number of rows:");
   scanf("%d", &n);
   for (i = 1; i <= n; i++)
   {
     for (j = 1; j <= i; j++)
     {
-      printf("%d ", l);
-      l++;
+      printf("%d ", L);
+      L++;
     }
     printf("\n");
   }
@@ -19,7 +19,7 @@ void main()
 
 // Output:
 // Input the number of rows:4
-// 1
-// 2 3
-// 4 5 6
-// 7 8 9 10
+// 1 
+// 2 3 
+// 4 5 6 
+// 7 8 9 10 
