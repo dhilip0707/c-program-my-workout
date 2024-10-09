@@ -1,4 +1,4 @@
-//21. Write a program in C for the multiplication of two square matrices.
+// 21. Write a program in C for the multiplication of two square matrices.
 
 #include <stdio.h>
 void main()
@@ -34,7 +34,7 @@ void main()
             for (k = 0; k < columns; k++)
             {
                 multiplication[i][j] = multiplication[i][j] + first[i][k] * second[k][j];
-                printf("%d ",multiplication[i][j]);
+                printf("%d\n",multiplication[i][j]);
             }
         }
     }
@@ -66,7 +66,6 @@ void main()
         printf("\n");
     }
 }
-
 
 /*Output:
 Input the rows and columns of the matrix :2 2
