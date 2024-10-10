@@ -1,3 +1,5 @@
+// 15.Write a C program to calculate the factorial of a given number.
+
 #include <stdio.h>
 void main()
 {
@@ -11,3 +13,10 @@ void main()
     } 
     printf("The factorial of %d is :%d\n", n, j);
 }
+
+
+// Output:
+// Input the number:5
+// The factorial of 5 is :120
+
+
