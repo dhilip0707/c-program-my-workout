@@ -28,32 +28,3 @@ void reverse(char string[])
 // Output:
 // Input a string:"AEIou"
 // "uoIEA"
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
