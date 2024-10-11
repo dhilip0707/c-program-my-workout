@@ -1,33 +1,29 @@
-//18. Write a program in C for a 2D array of size 3x3 and print the matrix.
+// 18. Write a program in C for a 2D array of size 3x3 and print the matrix.
 
-#include<stdio.h>
+#include <stdio.h>
 void main()
 {
-    int i,j,rows,columns;
-    printf("Input the rows and columns in the matrix:");
-    scanf("%d %d",&rows,&columns);
-    int matrix[rows][columns];
-    for ( i = 0; i < rows; i++)
-    {
-       for ( j = 0; j < columns; j++)
-       {
-        printf("element - [%d],[%d]:",i,j);
-        scanf("%d",&matrix[i][j]);
-       }
-       
-    }
-    printf("The Matrix:\n");
-    for ( i = 0; i < rows; i++)
-    {
-       for ( j = 0; j < columns; j++)
-       {
-        printf("%d ",matrix[i][j]);
-       }
-       printf("\n");
-       
-    }
-    
-    
+   int i, j, rows, columns;
+   printf("Input the rows and columns in the matrix:");
+   scanf("%d %d", &rows, &columns);
+   int matrix[rows][columns];
+   for (i = 0; i < rows; i++)
+   {
+      for (j = 0; j < columns; j++)
+      {
+         printf("element - [%d],[%d]:", i, j);
+         scanf("%d", &matrix[i][j]);
+      }
+   }
+   printf("The Matrix:\n");
+   for (i = 0; i < rows; i++)
+   {
+      for (j = 0; j < columns; j++)
+      {
+         printf("%d ", matrix[i][j]);
+      }
+      printf("\n");
+   }
 }
 
 /*Output:
@@ -42,7 +38,7 @@ element - [2],[0]:7
 element - [2],[1]:8
 element - [2],[2]:9
 The Matrix:
-1 2 3 
-4 5 6 
+1 2 3
+4 5 6
 7 8 9
 */
