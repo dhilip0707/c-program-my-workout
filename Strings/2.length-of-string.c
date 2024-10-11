@@ -16,7 +16,6 @@ int length(char string[])
     int i, count = 0;
     for (i = 0; string[i] != '\0'; i++)
     {
-
         count++;
     }
     return count;
