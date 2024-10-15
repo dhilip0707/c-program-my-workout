@@ -5,7 +5,7 @@ void main()
 {
     int i,n;
     float sum;
-    printf("Input the number of terms");
+    printf("Input the number of terms : ");
     scanf("%d",&n);
     for(i=1;i<=n;i++)
     {
@@ -16,8 +16,8 @@ void main()
 }
 
 
-/*output
-Input the number of terms5
-1/1+1/2+1/3+1/4+1/5+
-Sum of series upto 5 terms:2.283334
-*/
+// Output :
+// Input the number of terms : 5
+// 1/1+1/2+1/3+1/4+1/5+
+// Sum of series upto 5 terms:2.283334
+
