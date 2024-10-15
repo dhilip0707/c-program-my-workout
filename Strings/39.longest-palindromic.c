@@ -46,5 +46,9 @@ void main()
             break;
         }
     }
-    printf("%s\n", str2);
+    printf("Longest Palindromic Substring from the said string : %s\n", str2);
 }
+
+// Output:
+// Input the string:abcdcsdfabbccb
+// Longest Palindromic Substring from the said string : bccb
