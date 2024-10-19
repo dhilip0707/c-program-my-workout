@@ -5,7 +5,7 @@ void main()
     int i, j, k, rows, columns;
     printf("Input the size of the rows and columns:");
     scanf("%d%d", &rows, &columns);
-    int matrix[rows][columns], sum[rows], sum1[columns];
+    int matrix[rows][columns], total[rows], total1[columns];
     printf("Input the elements in the matrix:\n");
     for (i = 0; i < rows; i++)
     {
@@ -17,18 +17,18 @@ void main()
     }
     for (i = 0; i < rows; i++)
     {
-        sum[i] = 0;
+        total[i] = 0;
         for (j = 0; j < columns; j++)
         {
-            sum[i] = sum[i] + matrix[i][j];
+            total[i] = total[i] + matrix[i][j];
         }
     }
     for (i = 0; i < columns; i++)
     {
-        sum1[i] = 0;
+        total1[i] = 0;
         for (j = 0; j < rows; j++)
         {
-            sum1[i] = sum1[i] + matrix[j][i];
+            total1[i] = total1[i] + matrix[j][i];
         }
     }
     printf("The matrix is :\n");
@@ -47,12 +47,12 @@ void main()
         {
             printf("%d ", matrix[i][j]);
         }
-        printf("%d ", sum[i]);
+        printf("%d ", total[i]);
         printf("\n");
     }
     for (k = 0; k < columns; k++)
     {
-        printf("%d ", sum1[k]);
+        printf("%d ", total1[k]);
     }
     printf("\n");
  
