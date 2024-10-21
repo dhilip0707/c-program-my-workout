@@ -22,4 +22,4 @@ void main()
 //  Output:
 // Input the number of terms:5
 // The square natural upto 5 terms are :1+4+9+16+25
-// The Sum of Square Natural Number upto 5 terms = 55
+// The Sum of Square Natural Number upto 5 terms = 55 
