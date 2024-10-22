@@ -14,19 +14,10 @@ void main()
 }
 int *large(int *num1, int *num2)
 {
-    // int *ret;
-    // ret = (*num1 > *num2) ? num1 : num2;
-    // return ret;
-    int *k;
-    if (*num1 > *num2)
-    {
-        k = num1;
-    }
-    else
-    {
-        k = num2;
-    }
-    return k;
+    int *ret;
+    ret = (*num1 > *num2) ? num1 : num2;
+    return ret;
+
 }
 
 // Output:
