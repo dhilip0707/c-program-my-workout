@@ -25,3 +25,9 @@ void main()
     printf("Number of vowels : %d\n", *num1);
     printf("Number of consonants : %d\n", *num2);
 }
+
+
+// Output:
+// Input a string : string
+// Number of vowels : 1
+// Number of consonants : 5
