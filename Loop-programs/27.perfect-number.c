@@ -2,33 +2,31 @@
 #include <stdio.h>
 void main()
 {
-    int i, sum = 0, n;
+    int i, sum = 0, input;
     printf("Input the number:");
-    scanf("%d", &n);
+    scanf("%d", &input);
     printf("The positive divisor:");
-    for (i = 1; i < n; i++)
+    for (i = 1; i < input; i++)
     {
-        if (n % i == 0)
+        if (input % i == 0)
         {
             printf("%d  ", i);
             sum = sum + i;
         }
     }
     printf("\nThe sum of the divisor is:%d\n", sum);
-    if (sum == n)
+    if (sum == input)
     {
         printf("So,the number is perfect\n");
     }
     else
     {
-        printf("\nSo,the number is not perfect\n");
+        printf("So,the number is not perfect\n");
     }
 }
 
-/*output:
-Input the number:56
-The positive divisor:1  2  4  7  8  14  28
-The sum of the divisor is:64
-
-So,the number is not perfect
-*/
+// Output:
+// Input the number:56
+// The positive divisor:1  2  4  7  8  14  28  
+// The sum of the divisor is:64
+// So,the number is not perfect
