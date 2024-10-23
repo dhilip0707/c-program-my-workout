@@ -31,5 +31,5 @@ void main()
 Output:
 Input the starting range of number:1
 Input the ending range of number:50
-The perfect numbers within the given range:6 28 
+The perfect numbers within the given range:6 28
 */
