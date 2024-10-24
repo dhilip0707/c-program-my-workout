@@ -76,4 +76,4 @@ int main()
 // Output:
 // Enter the Input:153
 // The 153 is an Armstrong number.
-// The 153 is not a Perfect number.
+// The 153 is not a Perfect number. 
