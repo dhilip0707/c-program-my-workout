@@ -31,5 +31,5 @@ int odd_eve(int input)
 }
 
 // Output:
-// Input the number:5
+// Input the number:5 
 // The given number 5 is odd.
