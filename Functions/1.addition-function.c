@@ -20,4 +20,4 @@ void add(int num1,int num2,int sum)
 // Output:
 // Input the first number : 5
 // Input the second number : 6
-// The total is : 11
+// The total is : 11 
