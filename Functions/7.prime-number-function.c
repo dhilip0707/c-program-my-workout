@@ -39,4 +39,4 @@ int prime(int input)
 
 // Output:
 // Input a positive number: 5
-// 5 is a prime number.
+// 5 is a prime number. 
