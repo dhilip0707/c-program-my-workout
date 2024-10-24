@@ -19,7 +19,7 @@ int main()
     swap(); 
 }
 
-// Output:
+// Output: 
 // Input the first number : 4
 // Input the second number :5
 // Before Swapping:4,5
