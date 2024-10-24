@@ -20,4 +20,4 @@ float square(int input)
 
 // Output:
 // Input the number:20
-// The square of 20 is : 400.00
+// The square of 20 is : 400.00 
