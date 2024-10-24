@@ -24,5 +24,5 @@ int conversion(int input)
 }
 
 // Output:
-// Input the decimal number : 65
+// Input the decimal number : 65 
 // The binary value is 1000001
