@@ -6,7 +6,7 @@ void main()
     int i, j, num3, input, sum = 1, total, count = 0, digit;
     printf("Input the number:");
     scanf("%d", &input);
-    num3=input;
+    num3 = input;
     for (i = input; i != 0; count++)
     {
         i = i / 10;
