@@ -1,4 +1,6 @@
 // 30.Write a C program to find the Armstrong number for a given range of number.
+
+
 #include <stdio.h>
 void main()
 {
@@ -34,4 +36,10 @@ void main()
             printf("%d ", i);
         }
     }
+    printf("\n");
 }
+
+// Output:
+// Input the starting range of number:1       
+// Input the ending range of number:1000
+// Armstrong numbers in given range are:1 2 3 4 5 6 7 8 9 153 370 371 407
