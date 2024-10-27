@@ -1,4 +1,4 @@
-//31.Write a program in C to display a pattern like a below.
+// 31.Write a program in C to display a pattern like a below.
 
 #include <stdio.h>
 void main()
@@ -12,7 +12,7 @@ void main()
         {
             printf("*");
         }
-            printf("\n");
+        printf("\n");
     }
     for (i = 1; i <= input; i++)
     {
@@ -24,15 +24,15 @@ void main()
     }
 }
 
-/*
-*********
-*******
-*****
-***
-*
-***
-*****
-*******
-*********
-***********
-*/
+
+// Output:
+// *********
+// *******
+// *****
+// ***
+// *
+// ***
+// *****
+// *******
+// *********
+// ***********
