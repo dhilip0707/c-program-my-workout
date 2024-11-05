@@ -1,3 +1,4 @@
+// 33.Write a program in C to find the prime numbers within a range of numbers....
 
 #include <stdio.h>
 void main()
@@ -8,7 +9,6 @@ void main()
     printf("Input the ending range of number:");
     scanf("%d", &end);
     printf("The prime number between %d and %d are:", start, end);
-
     for (i = start; i <= end; i++)
     {
         flag = 0;
@@ -22,13 +22,13 @@ void main()
         }
         if (flag == 2)
         {
-           printf("%d ", i);
+            printf("%d ", i);
         }
     }
+    printf("\n");
 }
 
-/*output
-Input the starting range of number:1
-Input the ending range of number:50
-The prime number between 1 and 50 are:2 3 5 7 11 13 17 19 23 29 31 37 41 43 47
-*/
+// Output
+// Input the starting range of number:1
+// Input the ending range of number:50
+// The prime number between 1 and 50 are:2 3 5 7 11 13 17 19 23 29 31 37 41 43 47
