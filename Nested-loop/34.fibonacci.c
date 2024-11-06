@@ -17,6 +17,7 @@ void main()
         num2 = num3;
         printf("%d ", num3);
     }
+    printf("\n");
 }
 
 /*
