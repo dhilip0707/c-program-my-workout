@@ -1,23 +1,21 @@
-//39.Write a C program to find the HCF (Highest Common Factor) of two numbers.
+// 39.Write a C program to find the HCF (Highest Common Factor) of two numbers.
 
-
-#include<stdio.h>
+#include <stdio.h>
 void main()
 {
-    int i,num1,num2,HCF;
+    int i, num1, num2, HCF;
     printf("Input 1st number for HCF: ");
-    scanf("%d",&num1);
+    scanf("%d", &num1);
     printf("Input 2nd number for HCF: ");
-    scanf("%d",&num2);
-    for(i=1;i<=num1||i<=num2;i++)
+    scanf("%d", &num2);
+    for (i = 1; i <= num1 || i <= num2; i++)
     {
-        if(num1%i==0&&num2%i==0)
+        if (num1 % i == 0 && num2 % i == 0)
         {
-            HCF=i;
+            HCF = i;
         }
     }
-        printf("HCF of %d and %d is :%d\n",num1,num2,HCF);
-
+    printf("HCF of %d and %d is :%d\n", num1, num2, HCF);
 }
 
 /*output:
