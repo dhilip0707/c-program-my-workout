@@ -1,22 +1,25 @@
-//40.Write a C program to find the LCM of any two numbers using HCF. 
+// 40.Write a C program to find the LCM of any two numbers using HCF.
 
-#include<stdio.h>
+#include <stdio.h>
 void main()
 {
-    int i,num1,num2,HCF,LCM;
+    int i, num1, num2, HCF, LCM;
     printf("Input 1st number for LCM: ");
-    scanf("%d",&num1);
+    scanf("%d", &num1);
     printf("Input 2nd number for LCM: ");
-    scanf("%d",&num2);
-    for(i=1;i<=num1||i<=num2;i++)
+    scanf("%d", &num2);
+    for (i = 1; i <= num1 || i <= num2; i++)
     {
-        if(num1%i==0&&num2%i==0)
+        if (num1 % i == 0 && num2 % i == 0)
         {
-            HCF=i;
+            HCF = i;
         }
     }
-        LCM=(num1*num2)/HCF;
-        printf("HCF of %d and %d is :%d\n",num1,num2,LCM);
-
+    LCM = (num1 * num2) / HCF;
+    printf("LCM of %d and %d is :%d\n", num1, num2, LCM);
 }
 
+// Output:
+// Input 1st number for LCM: 15
+// Input 2nd number for LCM: 20
+// LCM of 15 and 20 is :60
