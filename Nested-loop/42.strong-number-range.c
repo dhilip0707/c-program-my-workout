@@ -1,7 +1,9 @@
+// 42.Write a C program to find Strong Numbers within a range of numbers.
+
 #include <stdio.h>
 void main()
 {
-    int i, j,k, factorial = 1, sum = 0,start,end;
+    int i, j, k, factorial = 1, sum = 0, start, end;
     printf("Input starting range of number:");
     scanf("%d", &start);
     printf("Input ending range of number:");
@@ -25,4 +27,11 @@ void main()
             printf("%d ", i);
         }
     }
+    printf("\n");
 }
+
+
+// Output:
+// Input starting range of number:1
+// Input ending range of number:200
+// The strong numbers are 1 2 145 
