@@ -32,12 +32,11 @@ void main()
 }
 
 
-/*
-Output:
-Input the number of elements to be stored in the array :3
-Input 3 elements in the array :
-element-0 :1
-element-1 :2 
-element-2 :2
-Total number of duplicate elements found in the array is :1
-*/
+
+// Output:
+// Input the number of elements to be stored in the array :3
+// Input 3 elements in the array :
+// element-0 :1
+// element-1 :2 
+// element-2 :2
+// Total number of duplicate elements found in the array is :1

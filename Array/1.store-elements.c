@@ -13,21 +13,20 @@ void main()
     printf("Elements in array are:");
     for (i = 0; i < 10; i++)
     {
-        printf("%d", array[i]);
+        printf("%d ", array[i]);
     }
 }
 
-/*output:
-Input 10 elements in the array :
-elements -0:1
-elements -1:1
-elements -2:2
-elements -3:3
-elements -4:4
-elements -5:5
-elements -6:6
-elements -7:7
-elements -8:8
-elements -9:9
-Elements in array are:1123456789
-*/
+// Output:
+// Input 10 elements in the array :
+// elements -0:1
+// elements -1:1
+// elements -2:2
+// elements -3:3
+// elements -4:4
+// elements -5:5
+// elements -6:6
+// elements -7:7
+// elements -8:8
+// elements -9:9
+// Elements in array are:1 1 2 3 4 5 6 7 8 9
