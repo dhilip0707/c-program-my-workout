@@ -1,4 +1,4 @@
-// 44.Write a program in C to check whether a number can be expressed as the sum of two prime.
+// 56.Write a program in C to check whether a number can be expressed as the sum of two prime.
 
 #include <stdio.h>
 void main()
@@ -29,22 +29,19 @@ void main()
             {
                 if (sum2 == i)
                 {
-                    if (sum1+sum2 == input)
+                    if (sum1 + sum2 == input)
                     {
 
                         printf("%d = %d + %d\n", input, j, i);
-                    
                     }
-                   
-                   
-                                              
                 }
-                               
             }
-        
         }
-    
     }
-
-      
 }
+
+
+// Output:
+// Input the number : 16
+// 16 = 13 + 3
+// 16 = 11 + 5
