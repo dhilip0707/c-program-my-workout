@@ -53,17 +53,17 @@ void main()
     }
 }
 
-/*Output :
-Input the number of elements to be stored in the first array:
-3
-Input 3 elements in the first array:
-elements - 0:1
-elements - 1:2
-elements - 2:3
-Input the number of elements to be stored in the secondary :
-3
-Input 3 elements in the second array:
-elements - 0:1
-elements - 1:2
-elements - 2:3
-1 2 3 1 2 3 The merged array in descending order is :3 3 2 2 1 1*/
+// Output :
+// Input the number of elements to be stored in the first array:
+// 3
+// Input 3 elements in the first array:
+// elements - 0:1
+// elements - 1:2
+// elements - 2:3
+// Input the number of elements to be stored in the secondary :
+// 3
+// Input 3 elements in the second array:
+// elements - 0:1
+// elements - 1:2
+// elements - 2:3
+// 1 2 3 1 2 3 The merged array in descending order is :3 3 2 2 1 1
