@@ -1,10 +1,13 @@
+
+// 53.Write a C program to convert a binary number to octal.
 //Without Argument Without Return
 #include<stdio.h>
 void binary_to_octal()
 {
     int binary,decimal,octal,remainder,i=1;
-    printf("Input the value:");
+    printf("Input a binary number:");
     scanf("%d",&binary);
+    printf("The Binary Number:%d\n",binary);
     while (binary>0)
     {
         remainder=binary%10;
@@ -20,10 +23,16 @@ void binary_to_octal()
         decimal=decimal/8;
         i=i*10;
     }
-    printf("Binary to octal number is:%d\n",octal);
+    printf("The Equivalent Octal Number:%d\n",octal);
     
 }
 void main()
 {
     binary_to_octal();
 }
+
+
+// Output:
+// Input a binary number:1001
+// The Binary Number:1001
+// The Equivalent Octal Number:11
