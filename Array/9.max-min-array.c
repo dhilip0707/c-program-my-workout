@@ -30,14 +30,13 @@ void main()
 
 }
 
-/*
-Output:
-Input the number of elements to be stored in the array:3
 
-Input 3 elements in the array:
-elements - 0 : 45
-elements - 1 : 25
-elements - 2 : 21
-Maximum element is :45
-Maximum element is :21
-*/
+// Output:
+// Input the number of elements to be stored in the array:3
+
+// Input 3 elements in the array:
+// elements - 0 : 45
+// elements - 1 : 25
+// elements - 2 : 21
+// Maximum element is :45
+// Maximum element is :21
