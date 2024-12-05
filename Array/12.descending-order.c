@@ -36,14 +36,13 @@ void main ()
 }
 
 
-/*
-/*Output:
-Input the size of array:3
-Input 3 elements in the array:
-elements-0:1
-elements-1:2
-elements-2:3
-elements of array in sorted ascending order is :
-3 2 1
 
-*/
+// Output:
+//     Input the size of array:3
+//     Input 3 elements in the array:
+//     elements-0:1
+//     elements-1:2
+//     elements-2:3
+//     elements of array in sorted ascending order is :
+//     3 2 1
+
