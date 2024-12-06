@@ -35,17 +35,16 @@ void main()
     printf("\n");
 }
 
-/*Output:
-Input the size of array:4
-Input 4 elements in the array in ascending order:
-elements - 0:1
-elements - 1:8
-elements - 2:7
-elements - 3:10
-Insert the value to be inserted:
-5
-Input the Position, where the value to be inserted :
-2
-The current list of the array :1 8 7 10 
- After Insert the element the new list is :1 8 5 7 10 
- */
+// Output:
+// Input the size of array:4
+// Input 4 elements in the array in ascending order:
+// elements - 0:1
+// elements - 1:8
+// elements - 2:7
+// elements - 3:10
+// Insert the value to be inserted:
+// 5
+// Input the Position, where the value to be inserted :
+// 2
+// The current list of the array :1 8 7 10 
+// After Insert the element the new list is :1 8 5 7 10 

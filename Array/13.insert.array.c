@@ -46,16 +46,16 @@ void main()
    printf("\n");
 }
 
-/*Output:
-Input the size of array:5
-Input 5 elements in the array in ascending order:
-elements - 0:2
-elements - 1:5
-elements - 2:7
-elements - 3:9
-elements - 4:11
-Insert the value to be inserted:
-8
-The exist array list is:2 5 7 9 11 
-After Insert the list is :2 5 7 8 9 11 
- */
+// Output:
+// Input the size of array:5
+// Input 5 elements in the array in ascending order:
+// elements - 0:2
+// elements - 1:5
+// elements - 2:7
+// elements - 3:9
+// elements - 4:11
+// Insert the value to be inserted:
+// 8
+// The exist array list is:2 5 7 9 11 
+// After Insert the list is :2 5 7 8 9 11 
+ 
