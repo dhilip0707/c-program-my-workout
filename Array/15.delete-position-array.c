@@ -34,15 +34,14 @@ void main()
     printf("\n");
 }
 
-/*Output:
+// Output:
 
-Input the size of array:5
-Input 5 elements in the array in ascending order:
-elements - 0:1
-elements - 1:2
-elements - 2:3
-elements - 3:4
-elements - 4:5
-Input the position where to delete:3
-The new list is :1 2 4 5
-*/
+// Input the size of array:5
+// Input 5 elements in the array in ascending order:
+// elements - 0:1
+// elements - 1:2
+// elements - 2:3
+// elements - 3:4
+// elements - 4:5
+// Input the position where to delete:3
+// The new list is :1 2 4 5
