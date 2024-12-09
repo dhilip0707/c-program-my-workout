@@ -61,26 +61,25 @@ void main()
     
 }
 
-/*
-Output:
-Input rows & columns in the first matrix :2 2
-elements-[0][0]:1
-elements-[0][1]:2
-elements-[1][0]:3
-elements-[1][1]:4
 
-Input rows & columns  in the second matrix :2 2
-elements-[0][0]:5
-elements-[0][1]:6
-elements-[1][0]:7
-elements-[1][1]:8
-The first matrix :
-1 2 
-3 4 
-The second matrix :
-5 6 
-7 8 
-The Addition of two matrix is :
-6 8 
-10 12
-*/
+// Output:
+// Input rows & columns in the first matrix :2 2
+// elements-[0][0]:1
+// elements-[0][1]:2
+// elements-[1][0]:3
+// elements-[1][1]:4
+
+// Input rows & columns  in the second matrix :2 2
+// elements-[0][0]:5
+// elements-[0][1]:6
+// elements-[1][0]:7
+// elements-[1][1]:8
+// The first matrix :
+// 1 2 
+// 3 4 
+// The second matrix :
+// 5 6 
+// 7 8 
+// The Addition of two matrix is :
+// 6 8 
+// 10 12
