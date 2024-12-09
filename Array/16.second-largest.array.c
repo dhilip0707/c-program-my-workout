@@ -21,7 +21,6 @@ void main()
             first = largest[i];
         }
     }
-    printf("f=%d", first);
     int second = largest[0];
     for ( i = 0; i < n; i++)
     {
@@ -30,7 +29,6 @@ void main()
         second=largest[i];
        }
     }
-    printf("\nsecond=%d\n", second);
     for (i = 0; i < n; i++)
     {
         if (second < largest[i] && largest[i] < first)
@@ -40,3 +38,14 @@ void main()
     }
     printf("The Second largest element in the array is :%d\n", second);
 }
+
+
+// Output:
+// Input the size of array :5
+// Input 5 elements in the array:5
+// elements - 0:6
+// elements - 1:8
+// elements - 2:4
+// elements - 3:3
+// elements - 4:2
+// The Second largest element in the array is :6
