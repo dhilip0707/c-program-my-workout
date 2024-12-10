@@ -63,11 +63,11 @@ void main()
         {
             printf("%d ", multiplication[i][j]);
         }
-        printf("\n");
+        printf("\n");  
     }
 }
 
-// Output:
+// Output :
 // Input the rows and columns of the matrix :2 2
 
 // Input elements in the first matrix:
@@ -90,6 +90,6 @@ void main()
 // 5 6
 // 7 8
 
-// The multiplication of two matrix is :
+// The multiplication of two matrix is  :
 // 19 22
 // 43 50
