@@ -4,7 +4,7 @@
 void main()
 {
     int i,j,rows,columns;
-    printf("Input rows & columns in the first matrix :\n");
+    printf("Input rows & columns in the first matrix :");
     scanf("%d%d",&rows,&columns);
     int sub1[rows][columns];
     for ( i = 0; i < rows; i++)
@@ -16,7 +16,7 @@ void main()
      }
      
     }
-    printf("Input rows & columns  in the second matrix :\n");
+    printf("Input rows & columns  in the second matrix :");
     scanf("%d%d",&rows,&columns);
     int sub2[rows][columns];
     for ( i = 0; i < rows; i++)
@@ -62,30 +62,24 @@ void main()
 }
 
 
-/*Output:
-Input the rows and columns of the matrix :2 2
+// Output:
 
-Input elements in the first matrix:
-element-[0],[0] :5
-element-[0],[1] :6
-element-[1],[0] :7
-element-[1],[1] :8
-
-Input elements in the second matrix:
-element-[0],[0] :1
-element-[0],[1] :2
-element-[1],[0] :3
-element-[1],[1] :4
-
-The First matrix is :
-5 6 
-7 8 
-
-The second matrix is :
-1 2 
-3 4 
-
-The multiplication of two matrix is :
-23 34 
-31 46
-*/
+// Input rows & columns in the first matrix :2 2
+// element-[0][0]:5
+// element-[0][1]:6
+// element-[1][0]:7
+// element-[1][1]:8
+// Input rows & columns  in the second matrix :2 2
+// element-[0][0]:1
+// element-[0][1]:2
+// element-[1][0]:3
+// element-[1][1]:4
+// The first matrix :
+// 5 6 
+// 7 8 
+// The second matrix :
+// 1 2 
+// 3 4 
+// The Subtraction of two matrix is :
+// 4 4 
+// 4 4 
