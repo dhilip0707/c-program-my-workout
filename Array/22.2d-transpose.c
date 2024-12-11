@@ -7,7 +7,7 @@ void main()
     printf("Input the rows and columns of the matrix:");
     scanf("%d%d", &rows, &columns);
     int original[rows][columns], transpose[columns][rows];
-    printf("\n Input elements in the matrix:\n");
+    printf("\nInput elements in the matrix:\n");
     for (i = 0; i < rows; i++)
     {
         for (j = 0; j < columns; j++)
@@ -49,7 +49,7 @@ void main()
 /*Output:
 Input the rows and columns of the matrix:2 3
 
- Input elements in the matrix:
+Input elements in the matrix:
 element-[0],[0]:0
 element-[0],[1]:1
 element-[0],[2]:2
