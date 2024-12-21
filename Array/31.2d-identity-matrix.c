@@ -59,23 +59,22 @@ void main()
     }
 }
 
-/*
-Output:
-Input the number of rows for the matrix :3
-Input the number of columns for the matrix :3
-Input the elements in the matrix:
-element-[0][0]:1
-element-[0][1]:0 
-element-[0][2]:0
-element-[1][0]:0
-element-[1][1]:1
-element-[1][2]:0
-element-[2][0]:0
-element-[2][1]:0
-element-[2][2]:1
-The matrix is :
-1 0 0 
-0 1 0 
-0 0 1 
-The matrix is an identity matrix.
-*/
+
+// Output:
+// Input the number of rows for the matrix :3
+// Input the number of columns for the matrix :3
+// Input the elements in the matrix:
+// element-[0][0]:1
+// element-[0][1]:0 
+// element-[0][2]:0
+// element-[1][0]:0
+// element-[1][1]:1
+// element-[1][2]:0
+// element-[2][0]:0
+// element-[2][1]:0
+// element-[2][2]:1
+// The matrix is :
+// 1 0 0 
+// 0 1 0 
+// 0 0 1 
+// The matrix is an identity matrix.

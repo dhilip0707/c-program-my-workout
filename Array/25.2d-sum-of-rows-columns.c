@@ -55,10 +55,7 @@ void main()
         printf("%d ", total1[k]);
     }
     printf("\n");
- 
-    
 }
-
 
 /*
 Output:
@@ -71,11 +68,11 @@ element-[1],[0] :4
 element-[1],[1] :5
 element-[1],[2] :6
 The matrix is :
-1 2 3 
-4 5 6 
+1 2 3
+4 5 6
 The sum of rows and columns of the matrix is :
-1 2 3 6 
-4 5 6 15 
+1 2 3 6
+4 5 6 15
 5 7 9
 
 */

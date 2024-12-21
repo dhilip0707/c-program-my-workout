@@ -3,7 +3,7 @@
 void main()
 {
     int i, j, k, n, floor, ceiling;
-    printf("Input the sixe of the array:");
+    printf("Input the size of the array:");
     scanf("%d", &n);
     int fc[n];
     printf("Input the element in ascending order:\n");
