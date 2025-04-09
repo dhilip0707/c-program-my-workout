@@ -28,17 +28,11 @@ void main()
             if (greatest[j] > greatest[i])
             {
                 k = greatest[j];
-                
+
                 break;
             }
         }
         printf("Next bigger element of %d in the array is: %d\n", greatest[i], k);
-       
-    }
-    printf("Next Bigger Elements Array:\n");
-    for (k = 0; k < n; k++)
-    {
-        printf("%d ", k);
     }
 }
 
